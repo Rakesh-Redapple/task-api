@@ -20,7 +20,7 @@ app.use(errorHandlerMiddleware);
 app.all("*",(req,res,next)=>{
     res.status(404).json({status:"fail",message:`page not found ${req.originalUrl}`});
 })
-
+//dadsdsf
 app.listen(port,()=>{
     console.log(`Server is up on port:${port}`);
 })
